@@ -1,21 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3150" started-at="2021-02-16T21:53:04 CST" finished-at="2021-02-16T21:53:07 CST">
+  <suite name="Default suite" duration-ms="64" started-at="2021-02-20T14:14:05 CST" finished-at="2021-02-20T14:14:05 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3150" started-at="2021-02-16T21:53:04 CST" finished-at="2021-02-16T21:53:07 CST">
-      <class name="com.jsonserver.BooksResourceTesting">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jsonserver.BooksResourceTesting@131276c2]" name="setUp" is-config="true" duration-ms="668" started-at="2021-02-16T21:53:04 CST" finished-at="2021-02-16T21:53:05 CST">
+    <test name="Default test" duration-ms="64" started-at="2021-02-20T14:14:05 CST" finished-at="2021-02-20T14:14:05 CST">
+      <class name="serialization_deserialization.Subject_Api_Test">
+        <test-method status="PASS" signature="init()[pri:0, instance:serialization_deserialization.Subject_Api_Test@371a67ec]" name="init" is-config="true" duration-ms="10" started-at="2021-02-20T14:14:05 CST" finished-at="2021-02-20T14:14:05 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createSingleBook()[pri:2, instance:com.jsonserver.BooksResourceTesting@131276c2]" name="createSingleBook" duration-ms="2405" started-at="2021-02-16T21:53:05 CST" finished-at="2021-02-16T21:53:07 CST">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testing()[pri:0, instance:serialization_deserialization.Subject_Api_Test@371a67ec]" name="testing" duration-ms="9" started-at="2021-02-20T14:14:05 CST" finished-at="2021-02-20T14:14:05 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createSingleBook -->
-      </class> <!-- com.jsonserver.BooksResourceTesting -->
+        </test-method> <!-- testing -->
+        <test-method status="FAIL" signature="afterClass()[pri:0, instance:serialization_deserialization.Subject_Api_Test@371a67ec]" name="afterClass" is-config="true" duration-ms="3" started-at="2021-02-20T14:14:05 CST" finished-at="2021-02-20T14:14:05 CST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [13] but found [12]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [13] but found [12]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at serialization_deserialization.Subject_Api_Test.afterClass(Subject_Api_Test.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- serialization_deserialization.Subject_Api_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

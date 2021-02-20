@@ -1,0 +1,3 @@
+2021-02-20 14:14:05 INFO  Subject_Api_Test:17 - Base uri given and launched
+2021-02-20 14:14:05 INFO  Subject_Api_Test:21 - Test is running
+2021-02-20 14:14:05 INFO  Subject_Api_Test:25 - i am terminating the terminal

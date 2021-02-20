@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.jsonserver.BooksResourceTesting">
+      <class name="com.jsonserver.Students">
         <methods>
-          <include name="createSingleBook"/>
+          <include name="getStudents"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.jsonserver.BooksResourceTesting -->
+      </class> <!-- com.jsonserver.Students -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
